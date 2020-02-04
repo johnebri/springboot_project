@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.in28minutes.springboot.service.WelcomeService;
+
 @RestController
 public class WelcomeController {
 	
@@ -20,11 +22,4 @@ public class WelcomeController {
 
 }
 
-@Component
-class WelcomeService{
-	public String retrieveWelcomeMessage() {
-		
-		return "Good Morning updated";
-		
-	}
-}
+
