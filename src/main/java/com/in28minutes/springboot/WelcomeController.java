@@ -19,6 +19,11 @@ public class WelcomeController {
 	public String welcome() {
 		return service.retrieveWelcomeMessage();
 	}
+	
+	@RequestMapping("/home")
+	public String home() {
+		return "home page here";
+	}
 
 }
 
