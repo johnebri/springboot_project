@@ -20,10 +20,7 @@ public class WelcomeController {
 		return service.retrieveWelcomeMessage();
 	}
 	
-	@RequestMapping("/home")
-	public String home() {
-		return "home page here";
-	}
+
 
 }
 
